@@ -1,0 +1,20 @@
+{
+  "name": "flyingspaghettimonster",
+  "version": "0.0.1",
+  "description": "FSM/DSL simulator and converter for ASL",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "nyc": "^15.1.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.1"
+  },
+  "scripts": {
+    "sim-test": "mocha -r ts-node/register simulator/tests/*.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
